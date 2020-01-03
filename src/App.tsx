@@ -1,7 +1,11 @@
 import React from 'react';
 
+import GitHub from 'components/GitHub';
+
 const App: React.FC = () => (
-	<p>App</p>
+	<main>
+		<GitHub/>
+	</main>
 );
 
 export default App;
